@@ -4,3 +4,8 @@
 // değilse Kredi Verilemez 🥺
 // şeklinde çıktı veren kodu Ternary deyimi kullanarak yazınız.
 
+let income = +prompt("Enter your income:");
+let expense = +prompt("Enter your expense:");
+let extraction = income - expense ;
+
+extraction>= 5500 ? console.log("You can get a loan from our bank") : console.log("Sorry, You cannot get a loan from our bank")
